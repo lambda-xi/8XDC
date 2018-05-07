@@ -15,8 +15,6 @@ int main(char **args)
 		// process arguments
 	}
 
-
-
 	// check if the path is valid using sys/stat.h
 	struct stat path_stat;
 	char path[100] = args[0];
