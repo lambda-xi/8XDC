@@ -3,9 +3,10 @@
 
 #include <stdio.h>
 
-void load8xp(FILE*);
-void unload8xp(FILE*);
-// Return token associated with the byte read
-void lookup(int);
+struct token;
+
+FILE *load8xp(FILE *);
+void unload8xp(FILE *);
+void ret_token(char);
 
 #endif //__DTOKEN_H
